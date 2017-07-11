@@ -2,9 +2,6 @@
 
 
 runCMSY <- function(catch_file_ = NULL, id_file_ = null, stocks_ = NA, dataUncert_ = 0.1, sigmaR_ = 0.1, n_ = 1000, ni_ = 3, nab_ = 5) {
-        setwd("/home/enrico/Work/BlueBridge/CMSY/NathanVersion/")
-        
-  
         catch_file <<- catch_file_
         id_file <<- id_file_
         stocks <<- stocks_
