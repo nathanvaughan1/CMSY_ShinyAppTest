@@ -192,7 +192,7 @@ runCMSY <- function(catch_file_ = NULL, id_file_ = null, stocks_ = NA, dataUncer
           mdat.all    <<- matrix(data=vector(),ncol=2+nyr+1)
           
           # initialize other vectors anew for each stock
-          current.attempts <- NA
+          current.attempts <<- NA
           
           # use start.yr if larger than select year
           if(is.na(select.yr)==F) {
