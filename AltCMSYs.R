@@ -82,7 +82,7 @@ runOrig<-function()
       cat("Only",n.viable.pt,"viable r-k pairs found, check data and settings \n")
     }  
   }
-  if(length(rv.all)>0)
+  if(length(rv.all)>1)
   {
     #------------------------------------------------------------------
     # 4 - if tip of viable r-k pairs is 'thin', do extra sampling there
@@ -194,7 +194,7 @@ runVect<-function()
     }  
   }
   
-  if(length(rv.all)>0)
+  if(length(rv.all)>1)
   {
     #------------------------------------------------------------------
     # 4 - if tip of viable r-k pairs is 'thin', do extra sampling there
